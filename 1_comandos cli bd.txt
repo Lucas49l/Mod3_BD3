@@ -1,0 +1,22 @@
+#acessar servidor banco
+	mysql -h localhost -u root -p
+
+#mostrar bancos 
+	show databases;
+	
+
+	create databse bd3;
+
+#cria ou recria o banco
+	create or replace database bd3;
+
+#exibe tabelas
+	show tables;
+
+create table aluno(ra varchar(10));
+
+#Mostra todos os dados da tabela
+	desc aluno;
+
+limpar cli no windowns
+	\! cls
